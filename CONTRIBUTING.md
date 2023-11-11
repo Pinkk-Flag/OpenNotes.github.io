@@ -4,7 +4,7 @@ Thank you for considering contributing to this project! Your help is greatly app
 
 Before you start, please take a moment to read through this document. It will help you understand the contribution process and ensure a smooth collaboration.
 
-## Contacting the Maintainer
+## Contacting me
 
 I encourage you to reach out to me before making significant contributions. This can help ensure that your proposed changes align with the project's goals and can save you time and effort.
 

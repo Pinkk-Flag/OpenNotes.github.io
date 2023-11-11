@@ -26,7 +26,7 @@ func main() {
 	svc := s3.New(sess)
 
 	// Specify the S3 bucket name and object key
-	bucketName := "bucket-1"
+	bucketName := "SHA-265"
 	objectKey := "AG21238-21194-1291"
 
 
@@ -51,3 +51,6 @@ func main() {
 
 	fmt.Println("File uploaded to S3 successfully!")
 }
+
+	// Pssst...
+	// Buy Bitcoin..
