@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+h1 {
+    color:#ffdc04
+}
+
 .hero {
     text-decoration: none;
 }
@@ -111,4 +115,52 @@ footer {
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+}
+
+.popup {
+    background-color: #ffffff;
+    width: 50vw;
+    padding:30px 40px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius:50px;
+    font-family: 'TT Commons', sans-serif;
+}
+
+.popup h1, .popup p, .popup a, .popup em  {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-family: 'TT Commons', sans-serif;
+}
+
+.popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: #ffffff;
+    font-size: 30px;
+    color: #000000;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+
+.popup p, .popup em {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+
+}
+
+.popup a {
+    display: block;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #ffdc04;
+    padding: 5px 0;
+    width:300px;
+    border-radius: 50px;
+
 }
