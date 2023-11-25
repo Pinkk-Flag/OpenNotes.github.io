@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +13,48 @@
     <link href="central.css" rel="stylesheet">
     <script src="typescript.js"></script>
     <script src="index.js"></script>
-    
 </head>
+
 <body>
-    <div class="hero">
-        <div class="title">
-            <a href="index.html"><h1>OpenNotes_</h1></a>
+    <div class="popup">
+        <button class="close">&times;</button>
+        <strong>
+            <h1>OpenNotes_ Will be no longer update in 2023 😞</h1>
+            <p>Sadly, OpenNotes_ will be "shutting" down after the exam.
+                It's been a great experience
+                and it has been profoundly fun to collaborate with everyone.
+                <br>
+                However, this is likely <em>not</em> the end for OpenNotes_.
+            </p>
+            <a href="#">Read the full document here.</a>
+        </strong>
+    </div>
+
+    <div class="page-container">
+        <div class="hero">
+            <div class="title">
+                <a href="index.html">
+                    <h1>OpenNotes_</h1>
+                </a>
+            </div>
         </div>
-    </div> 
         <div class="typingwrapper">
             <br>
             <strong>
-            <a href='' class="typing" data-period="2000" data-type='[ "Giving access to free notes to everyone" , "Save time and find what you need" , "Free access to a wealth of knowledge", "A powerful network of learners" ]'></a>
-            <strong></strong>
+                <a href='' class="typing" data-period="2000" data-type='[ "Giving access to free notes to everyone" , "Save time and find what you need" , "Free access to a wealth of knowledge", "A powerful network of learners" ]'></a>
+                <strong></strong>
         </div>
         <div class="files">
             <div class="table-container">
                 <table>
                     <thead>
                         <tr>
-                            <th><p class="foldernameunderline">Folder Name</p></th>
-                            <th><p class="classnameunderline">Date Added</p></th>
+                            <th>
+                                <p class="foldernameunderline">Folder Name</p>
+                            </th>
+                            <th>
+                                <p class="classnameunderline">Date Added</p>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -53,20 +75,36 @@
                             <td class="folder_name"><i></i><a href="Geography2023.html">Geography</a></td>
                             <td class="date">October 5, 2023</td>
                         </tr>
-
-
                     </tbody>
                 </table>
             </div>
         </div>
         <div class="aboutus">
             <h3>Why does this exist?</h3><br>
-            <p>In reality, this started off as just friends wanting to take off the load of school, however, we soon realised the potential this website could give to fellow students and become a network of information. What started as a small-scale initiative between friends blossomed into OpenNotes_, a platform dedicated to facilitating the seamless exchange of study resources. </p>
+            <p>In reality, this started off as just friends wanting to take off the load of school, however, we soon realized the potential this website could give to fellow students and become a network of information. What started as a small-scale initiative between friends blossomed into OpenNotes_, a platform dedicated to facilitating the seamless exchange of study resources. </p>
         </div>
         <div class="howdoesthiswork">
             <h3>How does OpenNotes_ work?</h3>
-            <br><p>OpenNotes_ is a simple yet effective method of organising notes made by students into a concise hub. The general system of OpenNotes_ is for <i>everyone</i> to contribute to the notes no matter the subject. The notes are created on a software called "Notion", a note taking application. We have a community Notion that will be given by certain users once you join the Discord. Every week, the notes are deleted and started anew, with just general folders remaining. All files from past weeks will be archived in the discord or on the website.</p>
+            <br>
+            <p>OpenNotes_ is a simple yet effective method of organizing notes made by students into a concise hub. The general system of OpenNotes_ is for <i>everyone</i> to contribute to the notes no matter the subject. The notes are created on a software called "Notion", a note-taking application. We have a community Notion that will be given by certain users once you join the Discord. Every week, the notes are deleted and started anew, with just general folders remaining. All files from past weeks will be archived in the discord or on the website.</p>
         </div>
-    
+    </div>
+
+<script>
+    window.addEventListener("load", function(){
+  setTimeout(
+    function() {
+      document.querySelector(".popup").style.display = "block";
+    },
+    20000
+  );
+});
+
+document.querySelector(".close").addEventListener("click", function(){
+  document.querySelector(".popup").style.display = "none";
+});
+
+</script>
 </body>
+
 </html>
