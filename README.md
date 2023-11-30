@@ -18,3 +18,5 @@ There are  a few reasons
 
 Of course, the notes will still be available in the website (given it doesn't shut down as well) but they will be permanently on the GitHub, which will be archived quite soon. 
 
+## We are archiving :(
+From 30/11/23, we will be archiving this repository. It has been great to work with everyone :)
